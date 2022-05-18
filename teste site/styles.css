@@ -1,0 +1,26 @@
+body {
+  background-color: blue;
+  animation: all 5s infinite;
+  orientation: center;
+}
+
+@keyframes all {
+  50%{background-color: blueviolet; }
+}
+
+#casa {
+  border-radius: 10px;
+  background-color: #333;
+  border-radius: 10px;
+  border-color: #444;
+  border-style:double;
+  height: 390px;
+  width: 300px;
+}
+
+:hover
+
+#casa:hover {
+  opacity: 0.5;
+  transition: ease-in-out 0.5s;
+}
